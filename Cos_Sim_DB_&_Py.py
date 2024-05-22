@@ -27,6 +27,7 @@ sheets = ['sheet1', 'sheet2', 'sheet3', 'sheet4', 'sheet5', 'sheet6', 'sheet7', 
 # Preprocessing function to clean and filter text
 def preprocess_text(text):
     """Lowercase the text, remove leading/trailing spaces, and filter out stopwords."""
+    text = text.translate(str.maketrans('', '', string.punctuation)
     text = text.strip().lower()
     tokens = text.split()
     tokens = [word for word in tokens if word not in stopwords_list]
