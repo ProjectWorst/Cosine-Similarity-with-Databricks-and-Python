@@ -75,6 +75,7 @@ Flexibility: Can be adapted for various use cases and fields where text analysis
 # Preprocessing function to clean and filter text
     def preprocess_text(text):
         """Lowercase the text, remove leading/trailing spaces, and filter out stopwords."""
+        text = text.translate(str.maketrans('', '', string.punctuation))
         text = text.strip().lower()
         tokens = text.split()
         tokens = [word for word in tokens if word not in stopwords_list]
