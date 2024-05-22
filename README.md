@@ -61,7 +61,8 @@ Flexibility: Can be adapted for various use cases and fields where text analysis
       stop_words_path = '/filelocation/stopwords.txt'
       with open(stop_words_path, 'r') as file:
         stopwords_list = file.read().splitlines()
-
+- To avoid using a file to assign as your list of stopwords, you can simply create the list of words for stopwords instead, such as stopwords_list = ['the', 'and', 'but'].
+  
 # Drop existing table if it exists
 - Deleting the table each time before running the script ensures that you are not trying to overwrite an existing table and avoids having to rename a new table over and over again.
 
