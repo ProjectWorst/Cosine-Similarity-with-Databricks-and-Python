@@ -5,7 +5,7 @@ Using a Databricks environment, this project preprocesses text data from multipl
 # Who
 Who would benefit from this code?
 
-This code is beneficial for data analysts, data scientists, and researchers who need to analyze and compare textual data across multiple datasets or sheets. It is particularly useful for those working with large volumes of text data and looking to identify similarities and patterns.
+- This code is beneficial for data analysts, data scientists, and researchers who need to analyze and compare textual data across multiple datasets or sheets. It is particularly useful for those working with large volumes of text data and looking to identify similarities and patterns.
 
 # What
 What does this code do?
