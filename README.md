@@ -17,29 +17,29 @@ When would someone use this code?
 
 Someone would use this code when they need to:
 
-Identify Similarities: Compare and identify similarities between large sets of textual data.
-Preprocess Text Data: Clean and prepare text data for further analysis or machine learning tasks.
-Store and Query Results: Efficiently store and query similarity scores for large datasets using Delta Lake.
+- Identify Similarities: Compare and identify similarities between large sets of textual data.
+- Preprocess Text Data: Clean and prepare text data for further analysis or machine learning tasks.
+- Store and Query Results: Efficiently store and query similarity scores for large datasets using Delta Lake.
 
 # Where
 Where can this code be applied?
 
 This code can be applied in various fields, including:
 
-Market Research: Comparing customer feedback or survey responses across different regions or time periods.
-Academic Research: Analyzing the similarity between research papers, articles, or other academic texts.
-Business Intelligence: Comparing product reviews, social media posts, or other text data to identify trends and patterns.
-Natural Language Processing (NLP): Preprocessing and analyzing text data for NLP tasks.
+- Market Research: Comparing customer feedback or survey responses across different regions or time periods.
+- Academic Research: Analyzing the similarity between research papers, articles, or other academic texts.
+- Business Intelligence: Comparing product reviews, social media posts, or other text data to identify trends and patterns.
+- Natural Language Processing (NLP): Preprocessing and analyzing text data for NLP tasks.
 
 # Why
 Why use this code?
 
 This code provides a comprehensive solution for preprocessing, analyzing, and comparing textual data. Key reasons to use this code include:
 
-Efficiency: Automates the preprocessing and similarity calculation process for large volumes of text data.
-Accuracy: Uses TF-IDF vectors and cosine similarity to provide accurate similarity scores.
-Scalability: Utilizes PySpark and Delta Lake, making it scalable for big data applications.
-Flexibility: Can be adapted for various use cases and fields where text analysis is required.
+- Efficiency: Automates the preprocessing and similarity calculation process for large volumes of text data.
+- Accuracy: Uses TF-IDF vectors and cosine similarity to provide accurate similarity scores.
+- Scalability: Utilizes PySpark and Delta Lake, making it scalable for big data applications.
+- Flexibility: Can be adapted for various use cases and fields where text analysis is required.
 
 # Prerequisites
     import pandas as pd
