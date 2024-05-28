@@ -10,7 +10,7 @@ This code is beneficial for data analysts, data scientists, and researchers who 
 # What
 What does this code do?
 
-This code preprocesses text data by removing stopwords and converting text to lowercase. It then calculates TF-IDF (Term Frequency-Inverse Document Frequency) vectors for the text data and computes cosine similarity scores between texts from different sheets. The similarity scores are stored in a Delta table, enabling efficient querying and further analysis.
+- This code preprocesses text data by removing stopwords and converting text to lowercase. It then calculates TF-IDF (Term Frequency-Inverse Document Frequency) vectors for the text data and computes cosine similarity scores between texts from different sheets. The similarity scores are stored in a Delta table, enabling efficient querying and further analysis.
 
 # When
 When would someone use this code?
